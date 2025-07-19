@@ -78,3 +78,42 @@ Many creators know *what* they want to build, but not *how it should look*. They
 
 ## 🧱 Folder Structure (Coming Soon)
 
+
+---
+
+## ⚠️ Risks & Mitigations
+
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| Vague or unclear input | Poor results | Input examples, placeholder text |
+| Repetitive output | Bland user experience | Use diverse APIs and feedback data |
+| Inappropriate AI suggestions | UX & reputation issues | Prompt tuning, content filters |
+| Performance bottlenecks | Slower generation | Cache results, use Supabase Edge Functions |
+| Low adoption | Wasted effort | Start with internal team use, iterate based on feedback |
+
+---
+
+## 🧪 Future Features
+
+- 🎨 Full UI mockup generation (HTML/CSS/Figma)
+- 🧩 Figma plugin integration
+- 🧑‍🤝‍🧑 Team collaboration mode
+- 🧾 Auto-generate branding documentation
+
+---
+
+## ✅ Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourname/vibe-project-generator
+
+# 2. Install dependencies
+npm install
+
+# 3. Set up Supabase project
+# - Create project at supabase.com
+# - Add env vars in `.env.local`
+
+# 4. Start dev server
+npm run dev
